@@ -1,0 +1,31 @@
+项目目的：
+通过从零实现 GPT 核心组件，加深对以下内容的理解：
+Transformer Architecture
+Self-Attention Mechanism
+Autoregressive Language Modeling
+GPT Text Generation Pipeline
+
+项目特点：
+- 基于 PyTorch 手写实现 Decoder-only Transformer
+- 手动实现 Multi-Head Self-Attention
+- 实现 Causal Mask，实现自回归生成
+- 实现 Token Embedding 与 Position Embedding
+- 实现 Pre-LayerNorm Transformer Block
+- 使用 GELU 激活函数与 Residual Connection
+- 完整训练流程：
+  - 自定义 Dataset
+  - DataLoader 数据加载
+  - Cross Entropy Loss
+  - Adam 优化器
+  - Validation Perplexity 评估
+  - 最优模型 checkpoint 保存
+- 实现基于训练模型的文本生成
+
+
+后续优化方向：
+Temperature Sampling
+Top-k / Top-p Sampling
+Beam Search
+KV Cache 加速生成
+RoPE Position Embedding
+更大规模语言模型训练
