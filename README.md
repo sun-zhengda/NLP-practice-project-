@@ -4,3 +4,4 @@
 第三周作业：Designed a multi-class classification task using PyTorch and a synthetic dataset, 
            where the class label is determined by the position of the character “你” in the input text. 
            If the character does not appear, the sample is assigned to class 0.
+week 4: A Transformer Block from scratch(bidirectional mask)
